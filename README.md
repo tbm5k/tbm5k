@@ -7,7 +7,7 @@ class Me {
     Profile profile = new Profile();
     profile.setName("Mbugua Teddy");
     profile.setWhatIDo("🐱‍💻");
-    profile.setTools();
+    profile.setTools(tools);
   }
 }
 ```
