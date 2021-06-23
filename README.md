@@ -1,14 +1,13 @@
 A few lines depicting me 😺 
 ---------------------------
 ```java
-class run {
+class Me {
   public static void main(String[]args){
+    String[] tools = {"Java8", "SpringBoot", "ES6", "ReactJs", "Figma"}
     Profile profile = new Profile();
-    profile.setName = "Mbugua Teddy";
-    profile.setWhatIDo = "🐱‍💻";
-    profile.setTools = {
-      "Java8", "SpringBoot", "ES6", "ReactJs", "Figma"
-      };
+    profile.setName("Mbugua Teddy");
+    profile.setWhatIDo("🐱‍💻");
+    profile.setTools();
   }
 }
 ```
