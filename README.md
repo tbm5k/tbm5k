@@ -1,14 +1,18 @@
 A few lines depicting me 😺 
 ---------------------------
-```java
-class Me {
-  public static void main(String[]args){
-    Profile profile = new Profile();
-    profile.setName("Mbugua Teddy");
-    profile.setWhatIDo("🐱‍💻");
-    profile.setTools(
-     new String[]{"Java8", "SpringBoot", "ES6", "ReactJs", "Figma"}
-    );
-  }
+```go
+type Dev struct {
+  name string
+  tech []string
+  links map[string]string
+} 
+
+tbm5k := Dev {
+  "Teddy Mbugua", 
+  []string{"Go", "Typescript", "Java"},
+  map[string]string{
+    "twitter": "@tbm5k",
+    "portfolio": "https://tbm5k.com",
+  },
 }
 ```
