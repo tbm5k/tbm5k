@@ -1,4 +1,4 @@
-A few lines depicting me 😺 
+Profile 😺 
 ---------------------------
 ```go
 type Dev struct {
